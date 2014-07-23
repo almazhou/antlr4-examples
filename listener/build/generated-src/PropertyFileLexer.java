@@ -1,4 +1,4 @@
-// Generated from PropertyFile.g4 by ANTLR 4.4
+// Generated from /Users/twer/antlr/listener/src/main/antlr4/PropertyFile.g4 by ANTLR 4.2.2
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -10,8 +10,6 @@ import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class PropertyFileLexer extends Lexer {
-	static { RuntimeMetaData.checkVersion("4.4", RuntimeMetaData.VERSION); }
-
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
@@ -22,7 +20,8 @@ public class PropertyFileLexer extends Lexer {
 	};
 
 	public static final String[] tokenNames = {
-		"'\\u0000'", "'\\u0001'", "'\\u0002'", "'\\u0003'", "'\\u0004'"
+		"<INVALID>",
+		"'\n'", "'='", "ID", "STRING"
 	};
 	public static final String[] ruleNames = {
 		"T__1", "T__0", "ID", "STRING"

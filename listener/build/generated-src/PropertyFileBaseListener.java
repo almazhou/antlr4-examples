@@ -1,4 +1,4 @@
-// Generated from PropertyFile.g4 by ANTLR 4.4
+// Generated from /Users/twer/antlr/listener/src/main/antlr4/PropertyFile.g4 by ANTLR 4.2.2
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.misc.NotNull;
@@ -23,6 +23,7 @@ public class PropertyFileBaseListener implements PropertyFileListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFile(@NotNull PropertyFileParser.FileContext ctx) { }
+
 	/**
 	 * {@inheritDoc}
 	 *
