@@ -33,14 +33,14 @@ public Integer visitId(LabeledExprParser.IdContext ctx) {
 public Integer visitMulDiv(LabeledExprParser.MulDivContext ctx) {
 	int left = visit(ctx.expr(0)); 
 	int right = visit(ctx.expr(1));  
-	// if (ctx.op.getType() == LabeledExprParser.MUL) return left * right; 
+	if (ctx.op.getType() == LabeledExprParser.MUL) return left * right; 
 	return left / right; 
 }
 @Override
 public Integer visitAddSub(LabeledExprParser.AddSubContext ctx) {
 	int left = visit(ctx.expr(0)); 
 	int right = visit(ctx.expr(1)); 
-	// if (ctx.op.getType() == LabeledExprParser.ADD) return left + right;
+	if (ctx.op.getType() == LabeledExprParser.ADD) return left + right;
 	return left - right;
 }
 @Override
